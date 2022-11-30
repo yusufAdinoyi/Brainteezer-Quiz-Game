@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+  <title>Educational Game | Playground</title>
+</head>
+<body>
+  <header id="main-header">
+    <section id="main-section">
+      <nav id="main-nav">
+        <img class="logo" src="../img/logo.png">
+        <audio id="myAudio2" autoplay loop>
+          <source src="../audio/gamebgsound.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <ul>
+          <li><a href="../index.html" class="btn quit">Quit Game</a></li>
+        </ul>
+      </nav>
+      <div id="game-panel" class="text-light">
+        <div id="questionArea">
+          <div class="questionbox p-2">
+            <p id="question" class="lead question p-1 center">
+              How many letters has the word Arabic
+            </p>
+          </div>
+          <div class="optionArea">
+            <div>
+              <li>
+                <input type="radio" name="answer" id="a" class="answer">
+                <label for="a" id="a_text">Question</label>
+              </li>
+    
+              <li>
+                <input type="radio" name="answer" id="b" class="answer">
+                <label for="b" id="b_text">Question</label>
+              </li>
+            </div>
+            <div>
+              <li>
+                <input type="radio" name="answer" id="c" class="answer">
+                <label for="c" id="c_text">Question</label>
+              </li>
+    
+              <li>
+                <input type="radio" name="answer" id="d" class="answer">
+                <label for="d" id="d_text">Question</label>
+              </li>
+            </div>
+          </div>
+          <button class="btn text-light display-box">Submit</button>
+          <div class="final-answerbox center">
+            <div class="lead finalquestion p-1 bg-primary center my-1">Is this your final answer?</div>
+            <button class="btn bg-light submit">Yes</button>
+            <button class="btn bg-light cancel">No</button>
+          </div>
+        </div>
+        <div class="aside">
+          <div class="game-level-box">
+            <h1 class="center">Game <span class="primary-color">Level</span></h1>
+            <p class="lead center text-light"><span class="circle level">2</span></p>
+          </div>
+          <div class="horizontal"></div>
+          <div class="game-level-box">
+            <h1 class="center">Game <span class="primary-color">Score</span></h1>
+            <p class="lead center text-light"><span class="circle score">2</span></p>
+          </div>
+          <div class="horizontal"></div>
+          <img src="../img/gamebg8.jpg" class="showImg">
+        </div>
+      </div>
+    </section>
+  </header>
+  <script src="../js/game.js"></script>
+</body>
+</html>

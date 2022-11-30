@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+#main-header{
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #1e3c72, #2a5298);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main-header #main-section{
+  width: 70%;
+  min-height: 70%;
+  background-image: linear-gradient(to bottom right, #1e3c72, #082e70);
+  box-shadow: 2px 2px 4px 2px dodgerblue;
+  border-radius: 10px;
+}
+#main-header .container{
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+  margin: auto 0;
+  overflow: auto;
+}
+#main-header .container .containerContent{
+  flex: 1;
+  padding: 3rem 0 0 0;
+}
+#main-header .container .containerContent a{
+  display: block;
+  width: 90%;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+#main-header .container .containerImage{
+  flex: 1;
+  background: url('../img/gamebg8.jpg') no-repeat center center/cover;
+}
+#main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .3rem 1rem;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #2a5298, #1e3c72);
+}
+.logo{
+  width: 50px;
+  border-radius: 50%;
+}
+#main-nav ul{display: flex;}
+#main-nav ul a{
+  padding: .3rem;
+  transition: all .4s ease;
+}
+#main-nav ul a:hover{color: bisque;}
+
+/* Contact */
+#contact h1{text-decoration: underline;}
+#contact ul, #level ul{
+  width: 80%;
+  margin: auto;
+}
+#contact ul li,
+#level ul li{
+  color: #fff;
+  background-image: linear-gradient(to bottom right, #1b448b, #031330);
+  border-radius: 10px;
+  margin: .6rem 0;
+  padding: .4rem;
+}
+#level ul li{cursor: pointer;}
+#level img{
+  margin: 2rem auto 0;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* play ground */
+#game-panel{
+  display: flex;
+  justify-content: space-between;
+  margin: .6rem;
+}
+#game-panel #questionArea{flex: 2;}
+#game-panel .aside{
+  box-shadow: 1px 1px 1px 2px rgb(39, 122, 204);
+  flex: 1;
+}
+#questionArea .questionbox{
+  background-image: linear-gradient(to bottom right, #0b2a64, #2c67cc);
+  margin: 0 .8rem .8rem 0;
+  box-shadow: 2px 2px 2px 2px dodgerblue;
+}
+#questionArea .optionArea div{
+  display: flex;
+  justify-content: space-between;
+}
+#questionArea .optionArea div li{
+  background-image: linear-gradient(to bottom right, #3d78df, #1b489b );
+  width: 100%;
+  margin: .3rem;
+  padding: .3rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+#questionArea .optionArea div li:hover{
+  background: #5187e4;
+}
+#questionArea .display-box{
+  display: block;
+  width: 97%;
+  margin: 1rem auto;
+  background-image: linear-gradient(to bottom right, #1e3c72, #082e70);
+  box-shadow: 1px 1px 3px 1px #fff;
+  transition: all .6s ease;
+}
+#questionArea .display-box:hover{
+  background-image: linear-gradient(to bottom right, #1e3c72, #174492);
+}
+.final-answerbox{
+  margin: .2rem 0;
+  display: none;
+}
+.final-answerbox .finalquestion{
+  max-width: 95%;
+  margin: 0 auto .3rem 0;
+  border-radius: 10px;
+}
+.final-answerbox button:hover{background: rgb(228, 172, 172);}
+#game-panel .aside{flex: 1;}
+.aside img{width: 100%;}

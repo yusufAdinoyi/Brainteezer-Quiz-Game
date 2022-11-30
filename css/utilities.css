@@ -1,0 +1,60 @@
+.primary-color{color: dodgerblue;}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.current{
+  color: bisque;
+}
+ul, li{list-style: none;}
+.p-1{padding: 1rem;}
+.p-2{padding: 2rem;}
+.p-3{padding: 3rem;}
+.py-1{padding: 1rem 0;}
+.py-2{padding: 2rem 0;}
+.center{text-align: center;}
+.lead{font-size: 1.2rem;}
+.l-header{font-size: 3rem;}
+.m-header{font-size: 2rem;}
+.btn{
+  cursor: pointer;
+  border: none;
+  padding: .5rem .8rem;
+}
+/* .btn-primary{background: dodgerblue;} */
+img{display: block;}
+.text-light{color: #fff;}
+.text-primary{color: dodgerblue;}
+.m-1{margin: 1rem;}
+.my-1{margin: 1rem 0;}
+.my-2{margin: 2rem 0;}
+.bg-wrap{
+  padding: .4rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.btn-primary{background: dodgerblue;}
+.bg-dark{background: #333;}
+.bg-light{background: #fff;}
+.bg-primary{background: dodgerblue;}
+.quit{
+  background: rgb(7, 47, 87);
+  border-radius: 10px;
+  padding: .5rem;
+  box-shadow: 2px 2px 2px 2px dodgerblue;
+  transition: all .4s ease-in-out;
+}
+.quit:hover{
+  box-shadow: 2px 2px 2px 2px rgb(19, 106, 192);
+}
+.horizontal{
+  height: 2px;
+  background: #fff;
+  margin: 1rem 0;
+}
+.circle{
+  background-image: linear-gradient(to bottom right, #7fa2e4, #2c67cc);
+  padding: .3rem;
+  border-radius: 50%;
+  margin-top: .7rem;
+}

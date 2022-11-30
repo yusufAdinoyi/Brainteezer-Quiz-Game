@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is something you hit with a hammer",
+    "a": "Door",
+    "b": "Bell",
+   "c": "Cloth",
+    "d": "Nail",
+    "correct": "d"
+  },
+  {
+    "question": "What is the name of a place you go to see lots of Animals",
+   "a": "Farm",
+    "b": "Zoo",
+    "c": "School",
+    "d": "Market",
+    "correct": "b"
+},
+{
+    "question": "If you freeze water, what do you get",
+    "a": "Cold",
+    "b": "Ice",
+    "c": "Air",
+    "d": "Steam",
+    "correct": "b"
+},
+{
+    "question": "How many planets are in Solar system",
+    "a": "6",
+    "b": "7",
+    "c": "8",
+    "d": "9",
+   "correct": "d"
+},
+{
+    "question": "How many sides does a triangle has",
+   "a": "4",
+    "b": "7",
+    "c": "3",
+    "d": "none of the above",
+   "correct": "c"
+},
+{
+    "question": "How many days are in a year",
+   "a": "365",
+    "b": "366",
+    "c": "364",
+    "d": "none of the above",
+   "correct": "a"
+},
+{
+    "question": "Which is the third planet in our solar system",
+   "a": "Earth",
+    "b": "Mercury",
+    "c": "Jupiter",
+    "d": "none of the above",
+   "correct": "a"
+},
+{
+    "question": "How many colors are in a rainbow",
+   "a": "8",
+    "b": "6",
+    "c": "7",
+    "d": "9",
+   "correct": "c"
+},
+{
+    "question": "The Process of finding problem in a code is called __________? 9",
+   "a": "Trouble Shooting",
+    "b": "Programming",
+    "c": "Debugging",
+    "d": "none of the above",
+   "correct": "c"
+},
+{
+    "question": "The Process of finding problem in a code is called __________?10",
+   "a": "Trouble Shooting",
+    "b": "Programming",
+    "c": "Debugging",
+    "d": "none of the above",
+   "correct": "c"
+},
+{
+    "question": "The Process of finding problem in a code is called __________?11",
+   "a": "Trouble Shooting",
+    "b": "Programming",
+    "c": "Debugging",
+    "d": "none of the above",
+   "correct": "c"
+},
+{
+    "question": "The Process of finding problem in a code is called __________?12",
+   "a": "Trouble Shooting",
+    "b": "Programming",
+    "c": "Debugging",
+    "d": "none of the above",
+   "correct": "c"
+}
+]
